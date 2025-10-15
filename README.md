@@ -26,8 +26,12 @@ The workflow for this repository involves data read in as raw data at Level 0 (L
   * `2-PLSR.R` - run PLSR model, diet ~ spectra
   * `3-predict-diet.R` - predict diet based on PLSR model fit and Landsat spectra
   * `4-diet-est.R` - model to estimate diet at each site/year/day
-  * `5-diet-model.R` - model to estimate for diet varies according to predictors
+  * `5-diet-model.R` - model to estimate how diet varies according to predictors
   * `6-gr-model.R` - model to estiamte effect of diet on pop growth rates
+  * `model_files/` - Stan model files
+    * `4-diet-est.stan` - model for `4-diet-est.R`
+    * `5-diet-model.stan` - model `5-diet-model.R`
+    * `6-gr-diet.stan` - model for `6-gr-model.R`
  
 * `Data/` (ignored)
   * `L0/`
