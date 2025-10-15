@@ -40,7 +40,18 @@ The workflow for this repository involves data read in as raw data at Level 0 (L
       * `L4_TM_RSR.xlsx`
       * `L5_TM_RSR.xlsx`
       * `L7_ETM_RSR.xlsx`
+    * `SiteLocations.csv` - site locations, produced with `1a-process-locations.R`
   * `L1/`
+   * `SIA_spectra.csv` - SIA and spectra for guano samples
+   * `colony_sic.csv` - colony SIC, produced with `1b-process-SIC.R`
+   * `shelf_area.csv` - colony shelf area, produced with `1c-process-bathymetry.R`
+  * `L2/`
+   * `YYYY-MM-DD/` - run date
+    * `L4_coef_en.rds` - coefficients from PLSR model, produced with `2-PLSR.R`
+    * `L5_coef_en.rds` - coefficients from PLSR model, produced with `2-PLSR.R`
+    * `L7_coef_en.rds` - coefficients from PLSR model, produced with `2-PLSR.R`
+  * `L3/`
+   * `diet_pred-YYYY-MM-DD.rds` - predicted diet, produced with `3-predict-diet.R`
 * `Results/` (ignored)
 
 
