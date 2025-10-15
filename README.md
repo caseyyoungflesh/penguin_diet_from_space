@@ -22,7 +22,7 @@ The workflow for this repository involves data read in as raw data at Level 0 (L
   * `1-process-abiotic-data/`
     * `1a-process-locations.R` - get colony locations
     * `1b-process-SIC.R` - process sea ice data
-    * `1c-process-bathymetry.R - process bathymetry data
+    * `1c-process-bathymetry.R` - process bathymetry data
   * `2-PLSR.R` - run PLSR model, diet ~ spectra
   * `3-predict-diet.R` - predict diet based on PLSR model fit and Landsat spectra
   * `4-diet-est.R` - model to estimate diet at each site/year/day
@@ -42,16 +42,16 @@ The workflow for this repository involves data read in as raw data at Level 0 (L
       * `L7_ETM_RSR.xlsx`
     * `SiteLocations.csv` - site locations, produced with `1a-process-locations.R`
   * `L1/`
-   * `SIA_spectra.csv` - SIA and spectra for guano samples
-   * `colony_sic.csv` - colony SIC, produced with `1b-process-SIC.R`
-   * `shelf_area.csv` - colony shelf area, produced with `1c-process-bathymetry.R`
+    * `SIA_spectra.csv` - SIA and spectra for guano samples
+    * `colony_sic.csv` - colony SIC, produced with `1b-process-SIC.R`
+    * `shelf_area.csv` - colony shelf area, produced with `1c-process-bathymetry.R`
   * `L2/`
-   * `YYYY-MM-DD/` - run date
-    * `L4_coef_en.rds` - coefficients from PLSR model, produced with `2-PLSR.R`
-    * `L5_coef_en.rds` - coefficients from PLSR model, produced with `2-PLSR.R`
-    * `L7_coef_en.rds` - coefficients from PLSR model, produced with `2-PLSR.R`
+    * `YYYY-MM-DD/` - run date
+      * `L4_coef_en.rds` - coefficients from PLSR model, produced with `2-PLSR.R`
+      * `L5_coef_en.rds` - coefficients from PLSR model, produced with `2-PLSR.R`
+      * `L7_coef_en.rds` - coefficients from PLSR model, produced with `2-PLSR.R`
   * `L3/`
-   * `diet_pred-YYYY-MM-DD.rds` - predicted diet, produced with `3-predict-diet.R`
+     * `diet_pred-YYYY-MM-DD.rds` - predicted diet, produced with `3-predict-diet.R`
 * `Results/` (ignored)
 
 
