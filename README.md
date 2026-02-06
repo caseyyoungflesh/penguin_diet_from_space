@@ -8,7 +8,7 @@ Repository containing code to quantify penguin diet from satellite sensors, how 
 
 ## Associated publications
 
-Youngflesh, C, C Che-Castaldo, M Schwaller, M Polito, S Serbin, HJ Lynch. Penguin diet from space: Links between sea ice, Antarctic food webs, and population change. Submitted.
+Youngflesh, C, C Che-Castaldo, M Schwaller, M Polito, S Serbin, HJ Lynch. Penguin diet from space links sea ice, food webs, and population change. Submitted.
 
 
 ## Workflow
