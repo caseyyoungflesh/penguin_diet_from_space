@@ -286,9 +286,9 @@ L7_spectra <- t(apply(spec_mat_n, 1,
                     FUN = function(x) c_fun(target = x, RSR = L7_rsr)))
 
 #merge convolved spectra with sample info
-L4_sp_data <- cbind(SIA_data, L4_spectra)
-L5_sp_data <- cbind(SIA_data, L5_spectra)
-L7_sp_data <- cbind(SIA_data, L7_spectra)
+L4_sp_data <- cbind(d_15N = SIA_data, L4_spectra)
+L5_sp_data <- cbind(d_15N = SIA_data, L5_spectra)
+L7_sp_data <- cbind(d_15N = SIA_data, L7_spectra)
 
 
 # PLSR settings --------------------------------------------------------------
